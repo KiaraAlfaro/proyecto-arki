@@ -274,15 +274,6 @@ footer{
 @media(min-width:1024px){
 
 
-    .textoportadamobile{
-        
-        font-size: 25px;
-        line-height: 55px;
-        
-       
-    }
-    
-
 /*-----------POST-PORTADA---------*/
     
 
@@ -327,6 +318,7 @@ footer{
     
         color: white;
         font-size: 50px;
+      
     }
     
     .columnaInfo{
@@ -468,7 +460,7 @@ footer{
         color: black;
     }
 
-}
+ 
 
 /*-------------------------------ARQUITECTURA Y REMODELACION----------------------------------------------*/
 
@@ -565,6 +557,12 @@ footer{
         column-gap: 20px;
         justify-items: center;
         overflow: hidden;
+
+    }
+
+    .proyecto:hover {
+
+        transform: scale(1.2);
 
     }
 
@@ -1132,6 +1130,7 @@ main{
    
         margin-left: 100px;
         
+        
     }
 
     .pageContactoLogosRedes{
@@ -1163,5 +1162,28 @@ main{
         height:400px;
         margin-left: 70px;
     }
-}
 
+    .asideCotizacion video {
+
+      animation-name: laterales;
+      animation-duration: 5s;
+      animation-iteration-count: infinite
+    }
+
+    @keyframes laterales{
+
+
+        0%{
+            padding-left: 0px;
+            padding-right: 100px;
+            
+        }
+
+        
+        100%{
+            padding-left: 100px;
+            
+        }
+    }
+
+}
